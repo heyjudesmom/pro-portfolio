@@ -11,15 +11,15 @@ export default function ProjectDetail({ p, i }) {
                     </div>
                     <div className="card-content">
                         <span className="card-title activator">
-                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub Logo" height="40px"/></a>
                             {p.name}
-                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></a>
                         </span>
                     </div>
                     <div className="card-reveal">
                         <span class="card-title grey-text text-darken-4">{p.name}<i class="material-icons right">close</i></span>
                         <p>{p.description}</p>
                         <p>{p.technologies}</p>
+                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub Logo" height="40px"/></a>
+                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></a>
                     </div>
                 </div>
             </div>

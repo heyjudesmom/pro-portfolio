@@ -38,7 +38,7 @@ export default function ProjectPage() {
       ]);
     return (
         <>
-            <div>ProjectPage</div>
+            <h1>Projects</h1>
             <ProjectList projects={projects}/>
         </>
     )
