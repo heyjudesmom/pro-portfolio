@@ -1,6 +1,9 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import AboutPage from './Pages/AboutPage/AboutPage';
+import ContactPage from './Pages/ContactPage/ContactPage';
 import LandingPage from './Pages/LandingPage/LandingPage';
+import ProjectPage from './Pages/ProjectPage/ProjectPage';
 
 function App() {
   return (
@@ -16,10 +19,16 @@ function App() {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <li>
+            <Link to="/work">Work Samples</Link>
+          </li>
          </ul>
      </nav>
       <Routes>
         <Route path='/' element={<LandingPage/>} />
+        <Route path='/about' element={<AboutPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
+        <Route path='/work' element={<ProjectPage/>} />
       </Routes>
     </main>
   );
