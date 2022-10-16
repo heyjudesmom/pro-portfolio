@@ -38,7 +38,7 @@ export default function ProjectPage() {
       ]);
     return (
         <>
-            <h1>Projects</h1>
+            <h3 className="h3-chalk">Homework</h3>
             <ProjectList projects={projects}/>
         </>
     )

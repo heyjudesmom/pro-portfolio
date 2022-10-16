@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-green);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --white: #d4d6d5;
+  --pink: #A87867;
+  --green: #d5e9dd;
+  --dark-green: #154042;
+  --dark-gray: #11201e;
+}
+
+.btn {
+  background-color: var(--pink);
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: var(--dark-gray);
 }

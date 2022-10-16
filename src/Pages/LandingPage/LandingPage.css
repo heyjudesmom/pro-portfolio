@@ -1,0 +1,26 @@
+.landing-page {
+    background-color: var(--pink);
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page > img {
+    position: relative;
+    z-index: 0;
+    height: 90vh;
+    width: 100vw;
+}
+
+.enter-content {
+    position:absolute;
+    z-index: 1;
+    color: var(--white);
+    font-family: 'Homemade Apple', cursive;
+}
+
+.enter-content > h3 {
+    text-decoration: line-through;
+}

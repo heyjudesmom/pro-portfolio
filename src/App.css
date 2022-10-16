@@ -1,4 +1,17 @@
 .App {
   text-align: center;
+  background-color: var(--white);
+}
+
+nav {
+  background-color: var(--dark-green);
+}
+
+.name {
+  display: flex;
+  letter-spacing: 1vh;
+  font-size: x-large;
+  margin-right: auto;
+  margin-left: 2vmin;
 }
 
