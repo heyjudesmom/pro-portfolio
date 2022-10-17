@@ -15,7 +15,7 @@ export default function TechIcons({ p, i }) {
     const imgs = techUrls.map(function(url) {
         return (
             <>
-            <img src={url} alt="icon" style={{height: "10vmin", backgroundColor:"var(--white)", marginInline:"1vh"}}/>
+            <img src={url} alt="icon" style={{height: "8vmin", marginInline:"1vh"}}/>
             </>
         )
     })
