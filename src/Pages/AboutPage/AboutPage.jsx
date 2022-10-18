@@ -13,7 +13,7 @@ export default function AboutPage() {
                         <div className="card">
                             <div className="card-content">
                                 <h4>Hello!</h4>
-                                <p>I'm Brianna McCarthy and I am a full stack, front end, and back end engineer based in Portland, ME. In my previous career as a teacher, I adapted content to be accessible for all users. Teaching inspired me to learn more about technology resources and I became passionate about the educational technology experience.
+                                <p className="flow-text">I'm Brianna McCarthy and I am a full stack, front end, and back end engineer based in Portland, ME. In my previous career as a teacher, I adapted content to be accessible for all users. Teaching inspired me to learn more about technology resources and I became passionate about the educational technology experience.
                                     I am looking to work in a developer role with an collaborative team working to create intuitive experiences for clients.
                                 </p>
                             </div>
@@ -23,7 +23,7 @@ export default function AboutPage() {
                         <div className="card">
                             <div className="card-content">
                                 <h4>Inspired by:</h4>
-                                <ul>
+                                <ul className="flow-text">
                                     <li>Collaboration</li>
                                     <li>Real-World Problems</li>
                                     <li>Creativity and Innovation</li>
