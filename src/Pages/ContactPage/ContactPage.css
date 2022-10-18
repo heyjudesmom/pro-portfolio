@@ -1,3 +1,11 @@
 .h3-chalk {
     font-family: 'Homemade Apple', cursive;
 }
+
+.contact-container {
+    padding: 5vmin;
+}
+
+.row > a {
+    margin: 1vmin;
+}

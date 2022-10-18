@@ -2,7 +2,7 @@ import TechIcons from "../../Components/TechIcons/TechIcons"
 export default function AboutPage() {
     return (
         <>
-            <div className="about-img"><img src="https://i.imgur.com/e81lLtK.png" alt="Photo of me" style={{ height: "30vh", borderRadius: "50%", border: "1vmin solid var(--dark-green)" }} /></div>
+            <div className="about-img"><img src="https://i.imgur.com/e81lLtK.png" alt="Brianna McCarthy" style={{ height: "30vh", borderRadius: "50%", border: "1vmin solid var(--dark-green)" }} /></div>
             <div>
                 <h3 className="h3-chalk">Meet the Engineer</h3>
             </div>

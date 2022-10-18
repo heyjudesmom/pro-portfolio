@@ -6,7 +6,7 @@ export default function ContactPage() {
         if (newWindow) newWindow.opener = null
       }
     return (
-        <div className="container">
+        <div className="contact-container">
             <h3 className="h3-chalk">Extra-curricular activities</h3>
             <div className="row">
             <a href="https://www.linkedin.com/in/brianna-mccarthy/"><img src="https://i.imgur.com/v316MzQ.png" alt="LinkedIn Logo" height="40px"/></a>

@@ -10,7 +10,7 @@ export default function ProjectDetail({ p, i }) {
             <div className="col s12 m6">
                 <div className="card">
                     <div className="card-image responsive-img">
-                        <img src={`${p.screenshot}`} alt={`image of ${p.name}`} className="activator"/>
+                        <img src={`${p.screenshot}`} alt={`${p.name}`} className="activator"/>
                     </div>
                     <div className="card-content">
                         <span className="card-title activator">
@@ -21,8 +21,8 @@ export default function ProjectDetail({ p, i }) {
                         <span class="card-title grey-text text-darken-4">{p.name}<i class="material-icons right">close</i></span>
                         <p>{p.description}</p>
                         <p>{str}</p>
-                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub Logo" height="40px"/></a>
-                        <a className="btn-floating waves-effect waves-light black" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></a>
+                        <button className="btn-floating black" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub" height="40px"/></button>
+                        <button className="btn-floating black" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></button>
                     </div>
                 </div>
             </div>
