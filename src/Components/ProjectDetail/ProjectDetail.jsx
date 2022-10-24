@@ -1,3 +1,5 @@
+import "./ProjectDetail.css"
+
 export default function ProjectDetail({ p, i }) {
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
@@ -21,8 +23,8 @@ export default function ProjectDetail({ p, i }) {
                         <span class="card-title grey-text text-darken-4">{p.name}<i class="material-icons right">close</i></span>
                         <p>{p.description}</p>
                         <p>{str}</p>
-                        <button className="btn-floating black" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub" height="40px"/></button>
-                        <button className="btn-floating black" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></button>
+                        <button className="btn-floating" onClick={() => openInNewTab(`${p.src}`)}><img className="material-icons" src="https://i.imgur.com/Dl5An0s.png" alt="GitHub" style={{height:"40px"}}/></button>
+                        <button className="btn-floating" onClick={() => openInNewTab(`${p.url}`)}><i className="material-icons">open_in_new</i></button>
                     </div>
                 </div>
             </div>

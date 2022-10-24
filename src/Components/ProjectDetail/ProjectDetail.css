@@ -1,0 +1,8 @@
+.card-reveal > button {
+    margin: 2vmin 2vmin;
+    background-color: var(--dark-green);
+}
+
+.card-reveal > button:hover {
+    background-color: var(--pink);
+}

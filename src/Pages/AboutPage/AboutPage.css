@@ -1,5 +1,11 @@
-@media only screen and (min-width: 768px){
-    
+.p-hov {
+    text-align: justify;
+    font-size: larger;
+    padding: 1vmin;
+    color: var(--dark-green);
+}
 
-    
+.p-hov:hover {
+    color: var(--dark-gray);
+    font-weight: 200;
 }
