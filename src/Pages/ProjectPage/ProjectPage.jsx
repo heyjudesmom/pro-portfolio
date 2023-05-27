@@ -7,7 +7,7 @@ export default function ProjectPage() {
         name: 'abubble',
         description: 'lifestyle organizer with dashboard feature', 
         technologies: ['MERN-Stack', 'Bootstrap'],
-        url: 'https://abubble-organizer.herokuapp.com/',
+        url: 'https://abubble.vercel.app/',
         src: 'https://github.com/heyjudesmom/abubble',
         screenshot: 'https://i.imgur.com/EAK68AL.png',
         }, 
